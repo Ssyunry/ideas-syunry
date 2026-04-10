@@ -27,6 +27,7 @@ with open(filename, "rb") as f:
     d4 = pickle.load(f)
 print(d4.dtype)
 print(d4.head())
+print(d4.head())
 
 
 
